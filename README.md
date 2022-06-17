@@ -41,7 +41,12 @@ pretty much the same as no changes needed to be made to the formatting script or
 
 Refactoring code has advantages and disadvantages. An advantage is that it there is a clear objective of the code already, which
 cuts out some of the early process of writing code or starting from scratch. Refactoring code saves time as the necessary scripts
-for the code to work are already created. While refactoring can save a lot of time, it can also lead to confusion depending on the
+for the code to work may already be created. While refactoring can save a lot of time, it can also lead to confusion depending on the
 code being refactored. There have many elements that may lead to confusion when trying to refactor some elses code, as there might
 not be comments explaining what certain code does. Overall, refactoring code is important as it not only improves code, but also is 
 more effeicent as you don't have to start from scratch.
+
+The refactored and original VBA scripts have their own advantages and disadvantages. The refactored script is more effecient
+as it uses a variable for the ticker indexes which is an advantage. The original code depends on a nested loop, which is
+a disadvantage. The reason I consider this a disadvantage is the lack of flexibility. If more stock tickers were to be added or removed,
+more lines of code would have to be edited compared to the new refactored code.
