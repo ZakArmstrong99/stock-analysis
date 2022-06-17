@@ -38,3 +38,10 @@ This makes the code more effiecent as it only needs to run through a loop rather
 pretty much the same as no changes needed to be made to the formatting script or the loop that puts the new values into the table.
 
 ## Summary:
+
+Refactoring code has advantages and disadvantages. An advantage is that it there is a clear objective of the code already, which
+cuts out some of the early process of writing code or starting from scratch. Refactoring code saves time as the necessary scripts
+for the code to work are already created. While refactoring can save a lot of time, it can also lead to confusion depending on the
+code being refactored. There have many elements that may lead to confusion when trying to refactor some elses code, as there might
+not be comments explaining what certain code does. Overall, refactoring code is important as it not only improves code, but also is 
+more effeicent as you don't have to start from scratch.
