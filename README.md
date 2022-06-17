@@ -22,7 +22,8 @@ The orignal times for 2017 and 2018 are noticibly slower than the the new code.
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/107213807/174387685-e5c76cef-6bf9-4f1a-b2bc-418e9fa47744.png)
 
 The key difference that made the code run faster was the inclusion of a tickerIndex variable. Using this tickerIndex variable,
-it was possible to create output arrays for the tickerStartingPrices, tickerEndingPrices, and tickerVolumes.
+it was possible to create output arrays for the tickerStartingPrices, tickerEndingPrices, and tickerVolumes. In order for the refactored
+code to work, the output array tickerVolumes needs all of its indexes values to be set to zero. This was done by using a for loop.
 
 ![tickerIndex_OutputArrays](https://user-images.githubusercontent.com/107213807/174390631-fcaa5032-ea72-4bb2-b2f0-7eb9ad26a630.png)
 
