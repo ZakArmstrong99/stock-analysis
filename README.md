@@ -22,11 +22,18 @@ The orignal times for 2017 and 2018 are noticibly slower than the the new code.
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/107213807/174387685-e5c76cef-6bf9-4f1a-b2bc-418e9fa47744.png)
 
 The key difference that made the code run faster was the inclusion of a tickerIndex variable. Using this tickerIndex variable,
-it was possible to create output arrays for the tickerStartingPrices, tickerEndingPrices, and tickerVolumes. The tickerIndex
-variable was used for all three arrays in a for loop that finds the total daily volume for each index, as well as the starting
+it was possible to create output arrays for the tickerStartingPrices, tickerEndingPrices, and tickerVolumes.
+
+![tickerIndex_OutputArrays](https://user-images.githubusercontent.com/107213807/174390631-fcaa5032-ea72-4bb2-b2f0-7eb9ad26a630.png)
+
+The tickerIndex variable was used for all three arrays in a for loop that finds the total daily volume for each index, as well as the starting
 and ending prices for each index in order to calculate the yearly return. The code before the refactor did not have the tickerIndex 
 variable, and used a nested for loop instead. Since the new code has the tickerIndex variable, there is no need for a nested loop
-as the loop in the refactored code increases the tickerIndex by 1 after getting the needed cell values for each ticker. This makes the
-code more effiecent as it only needs to run through a loop rather than a nested loop.
+as the loop in the refactored code increases the tickerIndex by 1 after getting the needed cell values for each ticker.
+
+![OutputArrays_Loop](https://user-images.githubusercontent.com/107213807/174390696-7214d0ea-9d11-42f4-bbd9-e7c2ff45aebc.png)
+
+This makes the code more effiecent as it only needs to run through a loop rather than a nested loop. The rest of the code stayed
+pretty much the same as no changes needed to be made to the formatting script or the loop that puts the new values into the table.
 
 ## Summary:
